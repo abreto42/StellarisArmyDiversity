@@ -1,0 +1,25 @@
+#armies
+infantry_corps:0 "Infantry Corps"
+infantry_corps_plural:0 "$infantry_corps$"
+infantry_corps_desc:0 "Hundreds of divisions of planetary-assualt capable marine infantry, along with their attending support and transport vehicles."
+armored_corps:0 "Armored Corps"
+armored_corps_plural:0 "$armored_corps$"
+armored_corps_desc:0 "Hundreds of armored divisions, designed to operate in all manner of hazardous and hostile environments using a combination of magnetic repulsors, tracked and wheeled vehicles."
+artillery_corps:0 "Artillery Corps"
+artillery_corps_plural:0 "$artillery_corps$"
+artillery_corps_desc:0 "Infantry divisions augmented with both self-propelled and towed artillery pieces, along with support vehicles for forward observation and fire coordination."
+atmo_fighter_corps:0 "Atmospheric Fighter Corps"
+atmo_fighter_corps_plural:0 "$atmo_fighter_corps$"
+atmo_fighter_corps_desc:0 "Squadrons of conventional atmospheric fighters with re-entry capabilities, equipped for both air superiority, close air support, and tactical bombing missions."
+colony_marine:0 "Colonial Marine Regional Corps"
+colony_marine:0 "$colony_marine$"
+colony_marine:0 ""
+
+#attachments
+
+army_attachment_fleet_fo:0 "Orbital Forward Observer Company"
+army_attachment_fleet_fo_desc:0 "§LThese forward observers are seconded fire control personnel from the Navy, allowing them to direct orbital support fire with greater precision."
+army_attachment_flag_forces:0 "Flagbearer Special Forces Brigade"
+army_attachment_flag_forces_desc:0 "§LRegardless of their name or visibility; purpose and methodology, these are some of the most legendary veterans our army can field. Beyond their extreme fighting prowess, their presence alone bolsters the fighting spirit of the corps in battle."
+army_attachment_carrier_detach:0 "Naval Fighter Detachment"
+army_attachment_carrier_detach:0 "§LSeveral squadrons of the Navy's space-capable bombers and fighters accompany the corps, adding significant range and firepower to the corps despite increased logistical weight from their specialized fuel needs."

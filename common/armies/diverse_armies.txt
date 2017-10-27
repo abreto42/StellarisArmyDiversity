@@ -1,0 +1,149 @@
+#This adds the new varied army templates.
+
+
+
+infantry_corps= {
+	damage = .38
+	health = .45
+	morale = 1.15
+	time = 30
+	maintenance = 0.11
+	icon_frame = 2
+	cost = {
+		minerals = 20
+	}
+	prerequisites = { "tech_assault_armies" }
+	potential = {
+		from = {
+			NOR = {
+				has_trait = "trait_robotic_1"
+				has_trait = "trait_robotic_2"
+				has_trait = "trait_robotic_3"
+				is_sapient = no
+			}
+		}
+		owner = {
+			OR = {
+				NOT = { has_authority = auth_machine_intelligence }
+				has_valid_civic = civic_machine_assimilator
+			}
+		}
+	}
+}
+
+armored_corps= {
+	damage = .6
+	health = .6
+	morale = 1.15
+	time = 30
+	maintenance = 0.15
+	icon_frame = 2
+	cost = {
+		minerals = 25
+	}
+	prerequisites = { "tech_assault_armies" }
+	potential = {
+		from = {
+			NOR = {
+				has_trait = "trait_robotic_1"
+				has_trait = "trait_robotic_2"
+				has_trait = "trait_robotic_3"
+				is_sapient = no
+			}
+		}
+		owner = {
+			OR = {
+				NOT = { has_authority = auth_machine_intelligence }
+				has_valid_civic = civic_machine_assimilator
+			}
+		}
+	}
+}
+
+artillery_corps= {
+	damage = .5
+	health = .5
+	morale = 1.15
+	time = 30
+	maintenance = 0.11
+	icon_frame = 2
+	cost = {
+		minerals = 23
+	}
+	prerequisites = { "tech_assault_armies" }
+	potential = {
+		from = {
+			NOR = {
+				has_trait = "trait_robotic_1"
+				has_trait = "trait_robotic_2"
+				has_trait = "trait_robotic_3"
+				is_sapient = no
+			}
+		}
+		owner = {
+			OR = {
+				NOT = { has_authority = auth_machine_intelligence }
+				has_valid_civic = civic_machine_assimilator
+			}
+		}
+	}
+}
+
+atmo_fighter_corps= {
+	damage = .6
+	health = .45
+	morale = 1.15
+	time = 35
+	maintenance = 0.11
+	icon_frame = 2
+	cost = {
+		minerals = 25
+	}
+	prerequisites = { "tech_assault_armies" }
+	potential = {
+		from = {
+			NOR = {
+				has_trait = "trait_robotic_1"
+				has_trait = "trait_robotic_2"
+				has_trait = "trait_robotic_3"
+				is_sapient = no
+			}
+		}
+		owner = {
+			OR = {
+				NOT = { has_authority = auth_machine_intelligence }
+				has_valid_civic = civic_machine_assimilator
+			}
+		}
+	}
+}
+
+colony_marine= {
+	defensive = yes
+	damage = 1
+	health = 1.05
+	morale = 1.15
+	time = 60
+	maintenance = 0.33
+	icon_frame = 1
+	cost = {
+		minerals = 80
+	}
+	prerequisites = { "tech_assault_armies" }
+	potential = {
+		from = {
+			NOR = {
+				has_trait = "trait_robotic_1"
+				has_trait = "trait_robotic_2"
+				has_trait = "trait_robotic_3"
+				is_sapient = no
+			}
+		}
+		owner = {
+			OR = {
+				NOT = { has_authority = auth_machine_intelligence }
+				has_valid_civic = civic_machine_assimilator
+			}
+		}
+	}
+}

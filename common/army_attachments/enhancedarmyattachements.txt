@@ -1,0 +1,43 @@
+fleet_fo = {
+	icon = "gfx/interface/icons/army_attachments/attachment_special_forces.dds"
+	cost = { minerals = 15 }
+	
+	modifier = {
+		army_damage_mult = .15
+	}
+
+	potential = {
+		owner = {
+			NOT = { has_authority = auth_machine_intelligence }
+		}
+	}
+}
+flag_forces = {
+	icon = "gfx/interface/icons/army_attachments/attachment_special_forces.dds"
+	cost = { minerals = 50 energy = 25}
+	
+	modifier = {
+		army_damage_mult = .25
+		army_morale_mult = .15
+	}
+
+	potential = {
+		owner = {
+			NOT = { has_authority = auth_machine_intelligence }
+		}
+	}
+}
+carrier_detach = {
+	icon = "gfx/interface/icons/army_attachments/attachment_mechanical.dds"
+	cost = { energy = 50}
+	
+	modifier = {
+		army_damage_mult = .30
+	}
+	prerequisites = { "tech_carrier_operations" }
+	potential = {
+		owner = {
+			NOT = { has_authority = auth_machine_intelligence }
+		}
+	}
+}
